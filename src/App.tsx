@@ -6,16 +6,20 @@ import CarSearchCard from "./component/form/CarSearchCard";
 import CarSearchCard2 from "./component/form/CarSearchCard2";
 import CarSearchCard3 from "./component/carSearch2/CarSearchCard3";
 import Navbar from "./component/Navbar";
+import Test from "./navbar/Test";
+import CarGrid from "./component/cargrid/CarGrid";
+import Background from "./component/carSearch2/Background";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      {/* <Navbar /> */}
-      <div className="p-10 flex justify-center bg-purple-200 ">
-        <CarSearchCard3 />
-      </div>
+      <Test />
+
+      <Background />
+
+      <CarSearchCard2 />
+
+      <CarGrid />
     </>
   );
 }

@@ -60,7 +60,8 @@ const CarSearchCard3: React.FC = () => {
   const models = selectedBrandData ? selectedBrandData.models : [];
 
   return (
-    <Card className="w-full max-w-sm shadow-xl rounded-2xl border">
+    <Card className="w-full max-w-sm shadow-xl p-8 rounded-2xl border mx-10 mt-25 "
+    >
       <CardHeader>
         <CardTitle className="text-3xl font-bold text-gray-700">
           Find your right car

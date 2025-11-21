@@ -46,7 +46,7 @@ const BudgetSelector: React.FC<Props> = ({
           onValueChange={setVehicleType}
           disabled={!budget}
         >
-          <SelectTrigger className="w-72">
+          <SelectTrigger className="w-full">
             <SelectValue placeholder="Vehicle Type" />
           </SelectTrigger>
           <SelectContent>

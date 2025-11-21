@@ -34,7 +34,7 @@ const BrandSelector: React.FC<Props> = ({
           setModel("");
         }}
       >
-        <SelectTrigger className="w-72">
+        <SelectTrigger className="w-full">
           <SelectValue placeholder="Select Brand" />
         </SelectTrigger>
         <SelectContent>
@@ -48,7 +48,7 @@ const BrandSelector: React.FC<Props> = ({
 
       {carType === "new car" && (
         <Select value={model} onValueChange={setModel} disabled={!brand}>
-          <SelectTrigger className="w-72">
+          <SelectTrigger className="w-full">
             <SelectValue placeholder="Select Model" />
           </SelectTrigger>
           <SelectContent>

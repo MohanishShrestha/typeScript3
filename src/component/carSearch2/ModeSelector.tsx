@@ -15,7 +15,7 @@ const ModeSelector: React.FC<Props> = ({ mode, setMode, carType }) => {
     <RadioGroup
       value={mode}
       onValueChange={setMode}
-      className="flex gap-6"
+      className="pl-6 flex gap-10"
     >
       <div className="flex items-center gap-2">
         <RadioGroupItem value="budget" id="budget" />
