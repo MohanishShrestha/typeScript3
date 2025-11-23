@@ -35,7 +35,7 @@ export const vehicleData = [
     carType: "new car",
   },
 
-  // Extra Data -------------------------
+ 
 
   {
     brand: "Mahindra",

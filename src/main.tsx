@@ -2,23 +2,20 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.tsx";
-import Game from "./pages/Game.tsx";
-import Game2 from "./pages/Game2.tsx";
-import MemoryGame from "./pages/MemoryGame.tsx";
+import { BrowserRouter } from "react-router-dom";
+import Car from "./Car.tsx";
 import Test from "./navbar/Test.tsx";
-import CarCarousel from "./component/Scroll/CarCarousel.tsx";
-import CompareCarsSection from "./component/Scroll/CompareCarsSection.tsx";
-import CompareContainer from "./component/Scroll/compareko/CompareContainer.tsx";
+import Footer from "./component/Footer.tsx";
 
 createRoot(document.getElementById("root")!).render(
-  <>
-    {/* <App /> */}
+  <BrowserRouter>
+    <Test />
+    <App />
     {/* <Game2 /> */}
     {/* <MemoryGame /> */}
     {/* <Test/> */}
     {/* <CarCarousel/> */}
-    <CompareCarsSection/>
-    {/* <CompareContainer /> */}
-
-  </>
+    {/* <Car /> */}
+    <Footer />
+  </BrowserRouter>
 );

@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { carDatabase, type CarCompare } from "../compareData"; 
+import { carDatabase, type CarCompare } from "./compareData"; 
 
 type Props = {
   onClose: () => void;
